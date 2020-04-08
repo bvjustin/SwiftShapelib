@@ -1,5 +1,5 @@
-module SwiftShapelib [system] {
-  header "/usr/local/Cellar/shapelib/1.5.0/include/shapefil.h"
+module CShapelib [system] {
+  header "shim.h"
   link "shapelib"
   export *
 }
